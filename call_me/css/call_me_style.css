@@ -1,0 +1,60 @@
+
+@media(max-width:800px){
+
+.call_me{
+	background:#36622b;
+	width:70px;
+	height:70px;
+	position:fixed;
+	bottom:20px;
+	border-radius:50%;
+	border:solid #fff 5px;
+	box-shadow:1px 0px 10px #000000;
+	left:20px;
+	padding-top:10px;
+	padding-left:16px;
+	box-sizing:border-box;
+animation:mobilka 1s  infinite linear ;
+z-index:3000;
+	}
+
+
+/** i download from https://cssicon.space/ **/
+	.mobile.icon {
+  color: #fff;
+  position: absolute;
+
+  width: 24px;
+  height: 38px;
+  border-radius: 2px;
+  border: solid 1px currentColor;
+}
+.mobile.icon:before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 2px;
+  width: 4px;
+  height: 2px;
+  background-color: currentColor;
+}
+.mobile.icon:after {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  left: 10px;
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+
+@keyframes mobilka{
+	
+	0%{transform:rotate(-2deg)}
+	50%{transform:rotate(2deg)}
+	100%{transform:rotate(-2deg)}
+	
+}
+
+}
